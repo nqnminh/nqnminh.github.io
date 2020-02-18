@@ -1,0 +1,138 @@
+@font-face {
+  font-family: trixie;
+  src: url(../font/Trixie-Plain.otf);
+}
+
+* {	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	font-size: 20px;
+	background: white;
+	font-family: trixie;
+	position: relative;
+	height: 100vh;
+	background-image: url(../img/background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+html {
+	overflow: hidden;
+}
+body {
+	overflow-y: scroll;
+}
+.vertical {
+	display: none;
+}
+nav {
+	display: none;
+}
+.nav-item {
+	display: none;
+}
+#cv {
+	  width: 100%;
+		background: white;
+		font-size: 16px;
+}
+#cv .page {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+#cv .page > div {
+		width: 100%;
+		flex-shrink: 0;
+}
+#cv .ava {
+		background-image: url(../img/avatar.png);
+		background-size: contain;
+		width: 250px !important;;
+		height: 250px !important;;
+		grid-row: span 2;
+		align-self: center;
+		justify-self: center;
+		border-radius: 50%;
+}
+#cv .education .content > div, #cv .activities .content > div {
+		display: grid;
+		grid-template-columns: 30% 70%;
+}
+.chart {
+		width: 100%;
+		overflow: hidden;
+		/* display: flex; */
+		justify-content: center;
+		flex-shrink: 0;
+}
+#cv .skills .skill:not(.eng) {
+		display: grid;
+		grid-template-columns: 30% 70%;
+}
+#cv .skill img {
+		width: 40px;
+		margin: 5px 5px;
+}
+.vertical {
+		display: none;
+	}
+	#head {
+		margin: auto;
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-position: center;
+		line-height: 100vh;
+	}
+	#cv {
+	  padding: 50px 20px;
+	}
+	#cv .wrap {
+		width: 100%;
+	}
+	#cv .page {
+		padding: 40px 0;
+	}
+	#cv .page .Name {
+		padding: 20px 0;
+	}
+	.slides {
+		width: 100%;
+	}
+	.control {
+		width: 338px;
+		margin: 100px auto;
+	}
+	.control .wrapper {
+		position: relative;
+	}
+	#info {
+	  margin: 100px auto;
+	}
+
+div.chart {
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+
+.skill-l {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 32px;
+    color: white;
+}
+.html {width: 66%; background-color: #4CAF50;} 
+.css {width: 44%; background-color: #2196F3;}
+.js {width: 22%; background-color: #f44336;} 
+.php {width: 33%; background-color: #808080;}
