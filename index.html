@@ -6,6 +6,7 @@
   <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 <div id="main">
@@ -190,6 +191,7 @@
   </div>
   <!-- profile -->
   <div id="projects" class="sides">
+    <p>Uploading...</p>
     <div class="nav-item">
       <a class="nav-link">Projects</a>
     </div>
@@ -218,6 +220,24 @@
   </div>
   <div class="background"></div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawHTML);
+    google.charts.setOnLoadCallback(drawCSS);
+    google.charts.setOnLoadCallback(drawJS);
+    google.charts.setOnLoadCallback(drawCpp);
+    google.charts.setOnLoadCallback(drawEngListen);
+    google.charts.setOnLoadCallback(drawEngSpeak);
+    google.charts.setOnLoadCallback(drawEngRead);
+    google.charts.setOnLoadCallback(drawEngWrite);
+</script>
+<script src="js/2.js"></script>
 </body>
 </html>
 
