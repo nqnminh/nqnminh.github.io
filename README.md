@@ -1,8 +1,8 @@
-# Jim's Blog
+# Chu Minh IT
 
 Weclome to my blog!
 
-Click [jinhucheung.github.io](https://jinhucheung.github.io) to enter the site.
+Click [nqnminh.github.io] (https://nqnminh.github.io/) to enter the site.
 
 Powered by [Hexo](https://hexo.io/) & [Chic](https://github.com/Siricee/hexo-theme-Chic)
 
