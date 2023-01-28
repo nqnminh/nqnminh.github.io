@@ -10,7 +10,7 @@ const textConfig = {
   text9: "Chơi gem hay ... ",
   text10: "Zậy hỏ",
   text11:
-    "Đừng dỗi lung tung nữa",
+    "Đừng dỗi nữa nhóoooooooooo",
   text12: "Ỏ ỏ <3",
 };
 
