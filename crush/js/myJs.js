@@ -137,7 +137,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "./ilikeyou.html";
+            window.location = "./ilikeyou/ilikeyou.html";
           },
         });
       }
